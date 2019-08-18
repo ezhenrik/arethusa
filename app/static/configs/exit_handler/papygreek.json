@@ -1,6 +1,6 @@
 {
   "title" : "Papygreek",
-  "route" : "http://localhost:3000/dmm_api/item/TreebankCite/:doc/return/edit",
+  "route" : "https://papygreek.hum.helsinki.fi/tokenization/:doc/treebank",
   "params" : [
     "doc"
   ]

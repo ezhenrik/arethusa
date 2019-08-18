@@ -8,30 +8,30 @@
   },
 
   "lexInvFusekiEndpoint" : {
-    "route" : "http://services.perseids.org/fuseki/ds/query?format=json"
+    "route" : "https://services.perseids.org/fuseki/ds/query?format=json"
   },
 
   "morphologyServiceLat" : {
-    "route" : "http://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
+    "route" : "https://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
   },
 
   "newMorphologyServiceLat" : {
-    "route" : "http://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
+    "route" : "https://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
   },
 
   "morphologyServiceGrc" : {
-    "route" : "http://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
+    "route" : "https://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
   },
 
   "newMorphologyServiceGrc" : {
-    "route" : "http://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
+    "route" : "https://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
   },
 
   "sgGrammar" : {
-    "route" : "http://services.perseids.org/sg/:doc.html"
+    "route" : "https://services.perseids.org/sg/:doc.html"
   },
 
   "citeMapper" : {
-    "route" : "http://services.perseids.org/cite_mapper/find_cite"
+    "route" : "https://services.perseids.org/cite_mapper/find_cite"
   }
 }
