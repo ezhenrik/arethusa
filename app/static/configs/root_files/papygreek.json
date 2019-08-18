@@ -1,7 +1,7 @@
 {
   "main" : {
     "@include" : "static/configs/layouts/perseids.json",
-    "auxConfPath": "http://www.perseids.org/tools/arethusa-configs",
+    "auxConfPath": "https://www.perseids.org/tools/arethusa-configs",
     "retrievers" : {
       "TreebankRetriever" : {
         "resource" : "papygreekResource",
