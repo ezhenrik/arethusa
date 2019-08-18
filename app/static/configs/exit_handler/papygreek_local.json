@@ -1,0 +1,7 @@
+{
+  "title" : "Papygreek",
+  "route" : "https://localhost:5000/tokenization/:doc/treebank",
+  "params" : [
+    "doc"
+  ]
+}

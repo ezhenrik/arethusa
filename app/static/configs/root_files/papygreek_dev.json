@@ -4,13 +4,13 @@
     "auxConfPath": "https://www.perseids.org/tools/arethusa-configs",
     "retrievers" : {
       "TreebankRetriever" : {
-        "resource" : "papygreekResource",
+        "resource" : "papygreekDevResource",
         "docIdentifier" : "treebank"
       }
     },
     "persisters" : {
       "TreebankPersister" : {
-        "resource" : "papygreekResource",
+        "resource" : "papygreekDevResource",
         "docIdentifier" : "treebank"
       }
     },
@@ -27,7 +27,7 @@
   },
 
   "auths": {
-    "@include" : "static/configs/auths/papygreek.json"
+    "@include" : "static/configs/auths/papygreek_dev.json"
   },
   "navbar" : {
     "template" : "js/templates/navbar1.html",
@@ -37,7 +37,7 @@
   },
 
   "resources" : {
-    "@include" : "static/configs/resources/papygreek.json"
+    "@include" : "static/configs/resources/papygreek_dev.json"
   },
 
   "plugins" : {
@@ -107,12 +107,12 @@
   },
 
   "exitHandler" : {
-    "@include" : "static/configs/exit_handler/papygreek.json"
+    "@include" : "static/configs/exit_handler/papygreek_dev.json"
   },
 
   "relocateHandler" : {
     "production" :  {
-      "baseUrl" : "https://papygreek.hum.helsinki.fi/"
+      "baseUrl" : "https://papygreek.hum.helsinki.fi/dev"
      }
   },
 

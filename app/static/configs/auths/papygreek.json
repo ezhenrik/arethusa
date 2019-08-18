@@ -1,0 +1,12 @@
+{
+  "papygreekAuth" : {
+    "type": "CSRF",
+    "cookie": "csrftoken",
+    "header": "X-CSRF-Token",
+    "crossDomain" : false,
+    "ping" : "https://papygreek.hum.helsinki.fi/user/ping",
+    "skipModes" : [
+      "viewer"
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "papygreekResource" : {
-    "route" : "https://papygreek.hum.helsinki.fi/xml/:doc/:layer",
+  "papygreekDevResource" : {
+    "route" : "https://papygreek.hum.helsinki.fi/dev/xml/:doc/:layer",
     "params" : [
       "doc",
       "layer"
     ],
-    "auth": "papygreekAuth"
+    "auth": "papygreekDevAuth"
   },
 
   "lexInvFusekiEndpoint" : {

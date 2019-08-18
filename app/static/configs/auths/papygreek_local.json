@@ -1,0 +1,12 @@
+{
+  "papygreekLocalAuth" : {
+    "type": "CSRF",
+    "cookie": "csrftoken",
+    "header": "X-CSRF-Token",
+    "crossDomain" : false,
+    "ping" : "https://localhost:5000/user/ping",
+    "skipModes" : [
+      "viewer"
+    ]
+  }
+}

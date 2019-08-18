@@ -1,0 +1,7 @@
+{
+  "title" : "Papygreek",
+  "route" : "https://papygreek.hum.helsinki.fi/dev/tokenization/:doc/treebank",
+  "params" : [
+    "doc"
+  ]
+}
