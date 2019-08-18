@@ -1,11 +1,10 @@
 {
-  "perseidsResource" : {
+  "papygreekResource" : {
     "route" : "https://papygreek.hum.helsinki.fi/xml/:doc/:layer",
     "params" : [
       "doc",
       "layer"
-    ],
-    "auth": "perseidsAuth"
+    ]
   },
 
   "lexInvFusekiEndpoint" : {
