@@ -16,3 +16,4 @@ app/css/*.css*
 app/js/arethusa/version.json
 app/js/arethusa/version.js
 app/js/templates/compiled/
+npm-shrinkwrap.json
