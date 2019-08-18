@@ -108,12 +108,12 @@
   },
 
   "exitHandler" : {
-    "@include" : "static/configs/exit_handler/perseids_local.json"
+    "@include" : "static/configs/exit_handler/papygreek.json"
   },
 
   "relocateHandler" : {
     "production" :  {
-      "baseUrl" : "http://www.perseids.org/tools/arethusa/app/#"
+      "baseUrl" : "https://papygreek.hum.helsinki.fi/"
      }
   },
 
