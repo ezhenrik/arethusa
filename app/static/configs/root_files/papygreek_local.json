@@ -31,7 +31,7 @@
   },
   "navbar" : {
     "template" : "js/templates/navbar1.html",
-    "search" : true,
+    "search" : false,
     "notifier" : true,
     "navigation" : true
   },

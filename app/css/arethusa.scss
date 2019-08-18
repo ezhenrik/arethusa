@@ -503,7 +503,7 @@ a:hover, a:focus {
 }
 
 .top-bar, .top-bar-section .has-form, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button) {
-  background: #4E6476;
+  background: #333;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: #7E8897;
@@ -768,10 +768,10 @@ ul.no-list {
 
 .key-to-screen {
   margin: 0 2px;
-  border: 1px solid #4E6476;
+  border: 1px solid #333;
   border-radius: 5px;
   padding: 0.2rem 0.5rem;
-  background-color: #4E6476;
+  background-color: #333;
   font-size: 1.2rem;
   color: white;
   text-align: center;
@@ -966,9 +966,11 @@ $gridster-resizer-size: #{$gridster-padding - 5px};
 
 .panel {
   position: relative;
+  /*
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  */
 }
 
 .full-modal {
@@ -1177,4 +1179,13 @@ syntactical-description {
   .syntax-token {
     font-style: italic;
   }
+}
+
+/* ------ TWEAKS ----- */
+
+#uservoicebutton,
+.flags,
+li.ng-scope[title="English"]
+ {
+    display:none
 }

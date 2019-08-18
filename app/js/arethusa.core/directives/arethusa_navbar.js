@@ -31,7 +31,7 @@ angular.module('arethusa.core').directive('arethusaNavbar', [
 
         function setScreenValues() {
           setWindowWidth();
-          setLogo();
+          //setLogo();
         }
 
         function setWindowWidth() {
