@@ -623,6 +623,9 @@ module.exports = function(grunt) {
   grunt.registerTask('reloading-server', ['clean:dist', 'version', 'concurrent:server']);
   grunt.registerTask('doc-server', ['concurrent:docs']);
 
+  // Just build this with grunt
+  grunt.registerTask('compile', ['clean:dist', 'version', 'minify:all']);
+
   grunt.registerTask('reloader', 'concurrent:watches');
   grunt.registerTask('reloader:no-css', 'watch:serverNoCss');
   grunt.registerTask('reloader:conf', 'watch:conf');
