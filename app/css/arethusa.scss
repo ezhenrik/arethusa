@@ -1185,7 +1185,8 @@ syntactical-description {
 
 #uservoicebutton,
 .flags,
-li.ng-scope[title="English"]
+li.ng-scope[title="English"],
+li.ng-scope:last-child
  {
     display:none
 }

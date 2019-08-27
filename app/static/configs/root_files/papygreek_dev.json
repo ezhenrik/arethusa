@@ -20,6 +20,7 @@
       "relation",
       "artificialToken",
       "history",
+      "comments",
       "depTree"
     ],
     "chunkParam" : "chunk",
@@ -91,6 +92,14 @@
 
     "artificialToken" : {
       "template" : "js/arethusa.artificial_token/templates/artificial_token.html"
+    },
+
+    "comments" : {
+      "retriever" : {
+        "CommentsRetriever" : {
+          "resource" : "papygreekDevComments"
+        }
+      }
     },
 
     "sg" : {

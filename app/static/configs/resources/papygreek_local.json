@@ -1,6 +1,15 @@
 {
   "papygreekLocalResource" : {
-    "route" : "https://localhost:5000/xml/:doc/:layer",
+    "route" : "https://localhost:5000/arethusa/:doc/:layer",
+    "params" : [
+      "doc",
+      "layer"
+    ],
+    "auth": "papygreekLocalAuth"
+  },
+
+  "papygreekLocalComments" : {
+    "route" : "https://localhost:5000/arethusa/:doc/:layer/comments",
     "params" : [
       "doc",
       "layer"

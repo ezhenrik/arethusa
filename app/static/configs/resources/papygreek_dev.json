@@ -1,6 +1,15 @@
 {
   "papygreekDevResource" : {
-    "route" : "https://papygreek.hum.helsinki.fi/dev/xml/:doc/:layer",
+    "route" : "https://papygreek.hum.helsinki.fi/dev/arethusa/:doc/:layer",
+    "params" : [
+      "doc",
+      "layer"
+    ],
+    "auth": "papygreekDevAuth"
+  },
+
+  "papygreekDevComments" : {
+    "route" : "https://papygreek.hum.helsinki.fi/dev/arethusa/:doc/:layer/comments",
     "params" : [
       "doc",
       "layer"

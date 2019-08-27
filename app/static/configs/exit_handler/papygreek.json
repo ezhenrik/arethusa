@@ -1,6 +1,6 @@
 {
   "title" : "Papygreek",
-  "route" : "https://papygreek.hum.helsinki.fi/tokenization/:doc/treebank",
+  "route" : "https://papygreek.hum.helsinki.fi/text/version/:doc",
   "params" : [
     "doc"
   ]
