@@ -1182,16 +1182,17 @@ syntactical-description {
 }
 
 /* ------ TWEAKS ----- */
-
-#uservoicebutton,
-.flags,
-li.ng-scope[title="English"],
-li.ng-scope:last-child
- {
-    display:none
+.top-bar {
+    #uservoicebutton,
+    .flags,
+    li.ng-scope[title="English"],
+    li.ng-scope:last-child
+     {
+        display:none
+    }
+    .name h1 {
+        color:#fff;
+        margin: 0 15px !important;
+    }
 }
 
-.top-bar .name h1 {
-    color:#fff;
-    margin: 0 15px !important;
-}

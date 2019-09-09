@@ -83,6 +83,7 @@
     "relation" : {
       "template" : "js/templates/relation.html",
       "contextMenu" : true,
+      "advancedMode" : true,
       "contextMenuTemplate": "js/arethusa.relation/templates/context_menu.html",
       "@include" : "js/arethusa.relation/configs/relation/relations.json"
     },
