@@ -1,0 +1,47 @@
+{
+  "papygreekDevResource" : {
+    "route" : "https://papygreek.hum.helsinki.fi/dev/arethusa_review/:doc/:layer",
+    "params" : [
+      "doc",
+      "layer"
+    ],
+    "auth": "papygreekDevAuth"
+  },
+
+  "papygreekDevComments" : {
+    "route" : "https://papygreek.hum.helsinki.fi/dev/arethusa/:doc/:layer/comments",
+    "params" : [
+      "doc",
+      "layer"
+    ],
+    "auth": "papygreekDevAuth"
+  },
+
+  "lexInvFusekiEndpoint" : {
+    "route" : "https://services.perseids.org/fuseki/ds/query?format=json"
+  },
+
+  "morphologyServiceLat" : {
+    "route" : "https://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
+  },
+
+  "newMorphologyServiceLat" : {
+    "route" : "https://morph.perseids.org/analysis/word?lang=lat&engine=morpheuslat"
+  },
+
+  "morphologyServiceGrc" : {
+    "route" : "https://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
+  },
+
+  "newMorphologyServiceGrc" : {
+    "route" : "https://morph.perseids.org/analysis/word?lang=grc&engine=morpheusgrc"
+  },
+
+  "sgGrammar" : {
+    "route" : "https://services.perseids.org/sg/:doc.html"
+  },
+
+  "citeMapper" : {
+    "route" : "https://services.perseids.org/cite_mapper/find_cite"
+  }
+}
