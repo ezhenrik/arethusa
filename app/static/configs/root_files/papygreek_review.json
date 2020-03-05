@@ -20,6 +20,7 @@
       "relation",
       "artificialToken",
       "history",
+      "search",
       "comments",
       "depTree"
     ],

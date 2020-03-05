@@ -20,6 +20,7 @@
       "relation",
       "artificialToken",
       "history",
+      "search",
       "comments",
       "depTree"
     ],
@@ -121,7 +122,7 @@
 
   "relocateHandler" : {
     "production" :  {
-      "baseUrl" : "https://papygreek.hum.helsinki.fi/"
+      "baseUrl" : "https://papygreek.hum.helsinki.fi"
      }
   },
 
